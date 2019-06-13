@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Страница пользователя</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="user.js"></script>
+</head>
+<body>
+	<nav class="one">
+	  <ul>
+	    <li><a href="users_array.html">Списки пользователей</a></li>
+	    <li><a href="jewerly.html">Драгоценности</a></li>
+	    <li><a href="elf.html">Профиль</a></li>
+	    <li><a href="#">Blog</a></li>
+	    <li><a href="#">Contact</a></li>
+	  </ul>
+	</nav>
+	<div class="window_3">
+		<div class="form_2">
+			<form id="form3" >
+				<h2>Привет, <input readonly name="welcome" id="welcome1" class="welcome"></input> </h2>
+
+				<label for ="inputName">Имя</label>
+				<input name="name" id="name" id="inputName" placeholder="Имя" class="input3">
+
+				<label for="inputLog">Логин</label>
+				<input name="login" id="login" placeholder="Логин" class="input3">
+
+				<label for="inputPass">Пароль</label>
+				<input name="pass" type="password" placeholder="Пароль" class="input3">
+				<input name="pass_rep" type="password" placeholder="Подтвердите пароль" class="input3">
+
+				<input type="button" id="update" value="Редактировать" class="redak_input">
+				<input id="exit" type="button" value="Выйти" class="exit">
+			</form>
+			<div class="window_4">
+				<input style="margin-top: 30px;" id="open_jew" type="button" value="Открыть список">
+				<button id="createtab" value="Предпочтения">Добавить предпочтения</button>
+		</div>
+	</div>
+</body>
+</html>
